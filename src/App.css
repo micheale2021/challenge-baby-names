@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,45 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+#root {
+  width: 60%;
+  margin: 0 auto;
+  border: 5px solid pink;
+  border-radius: 2%;
+  /* border-left-color: pink;
+  border-top-color: pink;
+  border-right-color: lightblue;
+  border-bottom-color: lightblue; */
+}
+
+.searchInput {
+  margin-top: 2em;
+ margin-left: 2.8em;
+}
+
+.favorites {
+  padding-left: 2em;
+}
+
+.list-names {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em 2em;
+}
+.list-name-girls,
+.list-name-boys {
+  display: inline;
+  padding: 0.4em 0.4em;
+  margin: 0.3em 0.3em;
+  border-radius: 10%;
+}
+
+.list-name-boys{
+  background-color: lightblue;
+}
+
+.list-name-girls{
+  background-color: pink;
 }
